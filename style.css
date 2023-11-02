@@ -1,0 +1,27 @@
+h2{
+    color: #E96479;
+    font-size: 30px;
+}
+ol{
+    background-color: #e7f3b4;
+}
+ol li{
+    color: #549d68;
+}
+.chicken{
+    color: #5a8b5e;
+}
+.pig{
+    color:#62836d;
+}
+.backgroundc{
+    background-color: #e7dde2;
+}
+#z222{
+    color: #ead5ec;
+    background-color: #2b3c3c;
+}
+
+h2:hover{
+    background-color:grey;
+}
