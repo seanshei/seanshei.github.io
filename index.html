@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--網頁編碼-->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Sean Shei personal website"/>
+        <meta name="author" content="Sean Shei"/>
+        <meta name="keywords" content="profile website, academic, portfolio"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="icon.ico" rel="shortcut icon"/>
+        <title>Sean Shei | Personal Website</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body class="project-page">
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-container">
+                    <div class="nav-logo">SEAN SHEI</div>
+                    <ul class="nav-menu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#recommendations">Recommendations</a></li>
+                        <li><a href="#changelog">Changelog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content-wrapper">
+            <main>
+                <section id="about" class="hero-section">
+                    <div class="homepage">
+                        <div class="info-wrapper">
+                            <h1 class="name-title">Sean Shei</h1>
+                            <p class="subtitle">E3 Researcher</p>
+                        </div>
+                        <div class="education">
+                            <h2>2021-2023 | NTU CAECE</h2>
+                            <h2>2017-2021 | NCKU ENV</h2>
+                            <h2>2014-2017 | HSNU</h2>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="publications" class="section">
+                    <h2 class="section-title">Publications</h2>
+                    <div class="publications-container">
+                        <div class="publication-card">
+                            <p>Schneider, F., Castro, D. S. C., Weng, K. C., Shei, C. H., & Lin, H. T. (2023). Comparative Life Cycle Assessment (LCA) on battery electric and combustion engine motorcycles in Taiwan. Journal of Cleaner Production, 406, 137060.</p>
+                        </div>
+                        <div class="publication-card">
+                            <p>Shei, C. H., Liu, J. C. E., & Hsieh, I. Y. L. (2024). Distributional effects of carbon pricing: An analysis of income-based versus expenditure-based approaches. Journal of Cleaner Production, 465, 141446.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="videos" class="section">
+                    <h2 class="section-title">Video Works</h2>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vTp_kRmDOS8?si=eUBdRghT7kyCq952" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nzgA4J7zMXI?si=tlriHArNdZ0QeJhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qwPq_TJ1xOQ?si=hjV5lMgQWlW941JC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DlLPRghCR1M?si=kskRB12vR-AN0l8J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section id="recommendations" class="section">
+                    <div class="section-content">
+                        <h2>Recommendations</h2>
+                        <div class="recommendations-grid">
+                            <div class="recommendation-card movies">
+                                <h3>Movie</h3>
+                                <div class="scrollable-content">
+                                    <div id="movies-list"></div>
+                                </div>
+                            </div>
+                            <div class="recommendation-card music">
+                                <h3>Music</h3>
+                                <div class="scrollable-content">
+                                    <div id="music-list"></div>
+                                </div>
+                            </div>
+                            <div class="recommendation-card books">
+                                <h3>Books</h3>
+                                <div class="scrollable-content">
+                                    <div id="books-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="changelog" class="section">
+                    <h2 class="section-title">Changelog</h2>
+                    <div class="changelog-container">
+                        <div class="changelog-entry">
+                            <div class="date">2024-03-21</div>
+                            <div class="content">
+                                <h3>Website Update</h3>
+                                <p>Added publications section and recommendations</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Sean Shei. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+    

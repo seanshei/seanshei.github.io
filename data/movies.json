@@ -1,0 +1,40 @@
+{
+    "movies": [
+        {
+            "title": "Inception",
+            "year": 2010,
+            "director": "Christopher Nolan",
+            "rating": 5
+        },
+        {
+            "title": "The Dark Knight",
+            "year": 2008,
+            "director": "Christopher Nolan",
+            "rating": 5
+        },
+        {
+            "title": "Interstellar",
+            "year": 2014,
+            "director": "Christopher Nolan",
+            "rating": 4
+        },
+        {
+            "title": "The Matrix",
+            "year": 1999,
+            "director": "Lana Wachowski",
+            "rating": 5
+        },
+        {
+            "title": "Pulp Fiction",
+            "year": 1994,
+            "director": "Quentin Tarantino",
+            "rating": 5
+        },
+        {
+            "title": "Fight Club",
+            "year": 1999,
+            "director": "David Fincher",
+            "rating": 4
+        }
+    ]
+} 

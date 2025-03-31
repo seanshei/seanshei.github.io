@@ -1,0 +1,46 @@
+{
+    "songs": [
+        {
+            "title": "Bohemian Rhapsody",
+            "artist": "Queen",
+            "year": 1975,
+            "audioFile": "audio/bohemian-rhapsody.mp3",
+            "previewDuration": 30
+        },
+        {
+            "title": "Hotel California",
+            "artist": "Eagles",
+            "year": 1976,
+            "audioFile": "audio/hotel-california.mp3",
+            "previewDuration": 30
+        },
+        {
+            "title": "Sweet Child O' Mine",
+            "artist": "Guns N' Roses",
+            "year": 1987,
+            "audioFile": "audio/sweet-child.mp3",
+            "previewDuration": 30
+        },
+        {
+            "title": "Stairway to Heaven",
+            "artist": "Led Zeppelin",
+            "year": 1971,
+            "audioFile": "audio/stairway.mp3",
+            "previewDuration": 30
+        },
+        {
+            "title": "Imagine",
+            "artist": "John Lennon",
+            "year": 1971,
+            "audioFile": "audio/imagine.mp3",
+            "previewDuration": 30
+        },
+        {
+            "title": "Hey Jude",
+            "artist": "The Beatles",
+            "year": 1968,
+            "audioFile": "audio/hey-jude.mp3",
+            "previewDuration": 30
+        }
+    ]
+} 

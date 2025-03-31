@@ -1,0 +1,40 @@
+{
+    "books": [
+        {
+            "title": "1984",
+            "year": 1949,
+            "author": "George Orwell",
+            "country": "United Kingdom"
+        },
+        {
+            "title": "The Great Gatsby",
+            "year": 1925,
+            "author": "F. Scott Fitzgerald",
+            "country": "United States"
+        },
+        {
+            "title": "One Hundred Years of Solitude",
+            "year": 1967,
+            "author": "Gabriel García Márquez",
+            "country": "Colombia"
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "year": 1960,
+            "author": "Harper Lee",
+            "country": "United States"
+        },
+        {
+            "title": "The Catcher in the Rye",
+            "year": 1951,
+            "author": "J.D. Salinger",
+            "country": "United States"
+        },
+        {
+            "title": "Pride and Prejudice",
+            "year": 1813,
+            "author": "Jane Austen",
+            "country": "United Kingdom"
+        }
+    ]
+} 
